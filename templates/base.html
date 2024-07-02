@@ -11,8 +11,10 @@
     <p> {{satisfaction.instructions}} </p>
     {% block start %} {% endblock %}
 
+    <form action="/questions/0" method="post">
+        <button> Start Survey </button>
+    </form>
+    <!-- <button> <a href="http://127.0.0.1:5000/questions/0"> Start Survey </href> </button> -->
     
-
-    <button> <a href="http://127.0.0.1:5000/questions/0"> Start Survey </href> </button>
 </body>
 </html>
